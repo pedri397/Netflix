@@ -1,0 +1,31 @@
+.footer {
+    width: 50%;
+    
+    margin: auto;
+    margin-top: 80px;
+}
+
+.caja__txt--footer {
+    color: rgb(180, 180, 180);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer__caja {
+    display: flex;
+    justify-content: space-between;
+}
+.caja__txt--border {
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.25rem;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.caja__txt--pequeño {
+    font-size: 11px;
+}
+
+.footer--peliculas {
+    margin-top: 200px;
+}

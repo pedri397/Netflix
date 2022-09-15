@@ -1,0 +1,150 @@
+.main {
+    width: 1900px;
+    margin: auto;
+}
+
+
+.container {
+    background-image: url(../image/fondo_inicio.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 55px;
+    background-position: center;
+    width: 1900px;
+    
+}
+
+.container__caja1{
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+    width: 90px;
+}
+
+.caja__txt {
+    margin-top: 55px;
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(185, 185, 185, 0);
+}
+.caja__txt:hover {
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.caja__detalles {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.container__caja {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.caja__img {
+    margin-top: 35px;
+}
+.detalles__borde {
+    border: 1px solid rgba(185, 185, 185, 0.76);
+    border-radius: 0.55rem;
+}
+.detalles__txt {
+    padding: 8px;
+    color: rgba(185, 185, 185, 0.76);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.caja__descripcion {
+    width: 500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: rgb(185, 185, 185);
+    margin: auto;
+    text-align: center;
+}
+
+.caja__play {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.play__img {
+    width: 9%;
+}
+.play__boton {
+    width: 120px;
+    background-color: #141414;
+    border: 0;
+    color: rgb(185, 185, 185);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 0.25rem;
+}
+
+.play__boton:hover {
+    border-top: 2px solid rgb(185, 185, 185);
+    border-bottom: 2px solid rgb(185, 185, 185);
+}
+
+.img__ragnar {
+    width: 70%;
+}
+
+.caja__icono {
+    width: 20%;
+    padding: 20px;
+}
+
+.recomendados__titulo {
+    color: rgb(185, 185, 185);
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja__series {
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+
+}
+
+.series__img {
+    width: 300px;
+    height: 170px;
+    margin-top: 15px;
+    background-image: url(../image/series1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0.25rem;
+    
+}
+
+.recomendados__flecha {
+    width: 25px;
+    height: 25px;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+
+.series__img:hover {
+    -webkit-box-shadow: -1px 33px 85px -12px rgba(176,176,176,0.25);
+    -moz-box-shadow: -1px 33px 85px -12px rgba(176,176,176,0.25);
+    box-shadow: -1px 33px 85px -12px rgba(176,176,176,0.25);
+ 
+}

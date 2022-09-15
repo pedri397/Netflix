@@ -1,0 +1,33 @@
+body {
+    background: black;
+    
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.txt__mover {
+    margin-left: 550px;
+}
+.txt__mover2 {
+    margin-right: 510px;
+}
+.menu__txt {
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(185, 185, 185);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.menu__txt:hover{
+    color: rgb(255, 41, 41);
+}
+
+.menu__img {
+    width: 75px;
+    position: absolute;
+}
+
